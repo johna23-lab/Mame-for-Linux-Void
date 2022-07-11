@@ -2,6 +2,14 @@
 
 Compiled version and xbps package created for GNU/Linux Void x86_64
 
+HOW TO INSTALL THIS XBPS
+=========================
+0-Download the file
+1-xbps-rindex -a mame-0245_3.x86_64.xbps
+2-sudo xbps-install -R $PWD  mame-0245_3
+
+By default the option of the lightgun is activated for the mouse
+
 What is MAME?
 =============
 
