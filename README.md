@@ -1,6 +1,6 @@
 ![Screenshot](https://github.com/johna23-lab/Mame-for-Linux-Void/blob/main/mame.jpg?raw=true)
 
-Compiled version and xbps package created for GNU/Linux Void x86_64
+Compiled version and xbps package created for GNU/Linux Void x86_64 and i686
 
 HOW TO INSTALL THIS XBPS
 =========================
