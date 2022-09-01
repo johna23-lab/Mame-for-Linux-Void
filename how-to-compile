@@ -1,0 +1,9 @@
+sudo xbps-install SDL2_ttf-devel fontconfig-devel glm libgomp-devel libjpeg-turbo-devel lua-devel libutf8proc-devel libuv-devel portaudio-devel portmidi-devel pkg-config python3 qt5-host-tools
+
+wget https://github.com/mamedev/mame/archive/refs/tags/mame0247.tar.gz
+
+tar xvfa mame0247.tar.gz
+
+cd mame-mame0247
+
+make QT_SELECT=5 QT_HOME=/usr/lib/qt5 SUBTARGET=arcade OPTIMIZE=3  USE_QTDEBUG=0
